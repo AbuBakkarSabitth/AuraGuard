@@ -1,0 +1,15 @@
+# YOLO model weights
+yolov8n.pt
+yolov8m.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db

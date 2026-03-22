@@ -1,44 +1,72 @@
-# 🚀 AuraGuard - Smart Workspace & Hydration Monitor
+# AuraGuard – Smart Workspace Monitor
 
-AuraGuard is a real-time AI-powered desktop productivity assistant that monitors workspace behavior using computer vision.
+AuraGuard is a real-time AI-powered workspace monitoring system that uses computer vision to improve productivity and well-being.
 
-It helps users stay focused, avoid distractions, and maintain healthy habits while working.
-
----
-
-## ✨ Features
-
-- 📱 Phone distraction detection (real-time alerts)
-- 💧 Hydration monitoring (cup/bottle detection)
-- 👤 User presence detection (away vs focusing)
-- ⚡ Real-time performance with FPS tracking
-- 🔒 Privacy-first (runs fully locally)
+It detects phone distractions, tracks hydration habits, and monitors user presence using a webcam.
 
 ---
 
-## 🧠 How It Works
+## Features
 
-AuraGuard uses a webcam feed and processes it using a YOLO (You Only Look Once) object detection model.
-
-Workflow:
-
-Webcam → YOLO Detection → Behavior Analysis → Smart Alerts → UI Display
-
----
-
-## 🛠 Tech Stack
-
-- Python
-- OpenCV
-- YOLOv8 (Ultralytics)
-- COCO Dataset
+* Real-time object detection using YOLOv8
+* Phone distraction detection
+* Hydration monitoring (cup/bottle detection)
+* User presence tracking
+* Visual alerts and warnings
+* FPS performance monitoring
 
 ---
 
-## ⚙️ Installation
+## Technologies Used
 
-1. Clone the repository:
+* Python
+* OpenCV
+* YOLOv8 (Ultralytics)
+* COCO Dataset
+
+---
+
+## Installation
+
+Clone the repository:
 
 ```bash
-git clone https://github.com/AbuBakkarSabith/AuraGuard.git
+git clone https://github.com/yourusername/AuraGuard.git
 cd AuraGuard
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python auraguard.py
+```
+
+---
+
+## How It Works
+
+```
+Webcam → YOLO Detection → Behavior Analysis → Alerts + HUD
+```
+
+---
+
+## Future Improvements
+
+* Posture detection
+* Productivity analytics dashboard
+* Mobile notifications
+* Desktop application UI
+
+---
+
+## Author
+
+MD Abu Bakkar Sabith
+CSE Student, East Delta University

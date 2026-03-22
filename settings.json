@@ -1,0 +1,5 @@
+{
+    "phone_threshold":0.5,
+    "hydration_threshold":30,
+    "away_threshold":5
+}

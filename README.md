@@ -1,5 +1,10 @@
 # AuraGuard – Smart Workspace Monitor
 
+
+Live Demo:
+https://your-render-link.onrender.com
+
+
 AuraGuard is a real-time AI-powered workspace monitoring system that uses computer vision to improve productivity and well-being.
 
 It detects phone distractions, tracks hydration habits, and monitors user presence using a webcam.
